@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  color: black;
+}
+
+.Form{
+  background-color: white;
+  border-radius: 30px;
+}
+
+.List-Item{
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 5px;
+  height: 300px;
+  overflow: auto;
+}
+
+.Item{
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+}
+/*Aki significa: a cada item que vem depois do item aplica as propriedades abaixo*/
+.Item + .Item{
+margin-top: 4px;
+border-top: 1px #d9d9d9;
+padding-top: 5px;
+
+}
